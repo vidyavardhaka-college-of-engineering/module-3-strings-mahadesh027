@@ -7,16 +7,12 @@
 //Expected input & output:-
 //Enter a String: Vidyavardhaka
 //The input string is Vidyavardhaka
-
 #include <stdio.h>
 int main() 
 {
-  char str[20];
-  printf("enter the string: ");
-  scanf("%s",str);
-                      //Declare the string
-printf("the entered string is %s",str);
-                      //read the string from user
-                      //Print the string
+  char a[20];                    //Declare the string
+printf("Enter a String: ");
+ scanf("%s",a);                      //read the string from user
+ printf("The input string is %s",a);                      //Print the string
 return 0;
 }
